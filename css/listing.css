@@ -46,3 +46,22 @@
   color: var(--secondary-color);
   border: 1px solid var(--border-color);
 }
+
+/* card */
+
+.card-container.ecom__card-container {
+  width: 25rem;
+  max-width: 95%;
+}
+
+.card-dismiss-icon.card-heart-icon {
+  top: 5px;
+  left: 0;
+  text-align: justify;
+  width: 4rem;
+}
+
+.card-image.list__card-image {
+  width: 24rem;
+  height: 30rem;
+}
