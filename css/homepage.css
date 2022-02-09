@@ -2,7 +2,6 @@
   background: var(--primary-color);
   position: sticky;
   top: 0px;
-  z-index: 3;
 }
 
 .sign-in-button {
@@ -17,7 +16,7 @@
 
 .hero .hero-img {
   max-width: 80%;
-  width: 550px;
+  width: 55rem;
   display: block;
   margin: auto;
 }
@@ -32,9 +31,8 @@
 
 .category-wrapper {
   cursor: pointer;
-  /* border: 2px solid var(--primary-color); */
-  width: 217px;
-  height: 217px;
+  width: 21.7rem;
+  height: 21.7rem;
   position: relative;
 }
 
