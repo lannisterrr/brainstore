@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://cerebrumui.netlify.app/style.css" />
+    <title>Cart</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div class="cart__grid-container">
+      <header class="main-head ecom-navbar z-index-lg cart__header">
+        <nav class="nav-component">
+          <div class="logo-wrapper">
+            <span class="hamburger-icon"
+              ><i class="fa fa-bars f-6 p-h-4"></i
+            ></span>
+            <h1 class="nav-logo heading-4 p-h-2">Brain Store</h1>
+          </div>
+          <div class="nav-searchBar-container ecom-searchbar">
+            <span class="nav-searchIcon"
+              ><i class="fa fa-search f-5 t-c-3"></i
+            ></span>
+            <input
+              type="text"
+              class="p-v-3 nav-searchBar"
+              placeholder="Search Items..."
+            />
+          </div>
+          <div class="link-wrapper">
+            <a class="t-c-2 f-5 p-v-3 p-h-8 m-h-3 sign-in-button">Sign in</a>
+            <div class="badge-wrapper p-h-4 m-h-3">
+              <span class="badge-icon f-8 m-2">
+                <i class="fa fa-heart"></i>
+              </span>
+              <div class="badge centered-row ecom-badge">3</div>
+            </div>
+            <span class="f-7 p-h-1 pointer badge-caption">Wishlist</span>
+            <div class="badge-wrapper p-h-4 m-h-3">
+              <span class="badge-icon f-8 m-2">
+                <i class="fa fa-shopping-cart"></i>
+              </span>
+              <div class="badge centered-row ecom-badge">3</div>
+            </div>
+            <span class="f-7 p-h-1 pointer badge-caption">Cart</span>
+          </div>
+        </nav>
+      </header>
+      <!-- item-card -->
+      <div class="cart__cards m-v-8">
+        <p class="heading-3 center-text">
+          My Cart <span class="f-8">(2)</span>
+        </p>
+
+        <section class="cart__card-container box-shadow-right">
+          <div class="cart__img-div">
+            <img src="./assets/image-1.png" alt="jacket-img" class="cart-img" />
+          </div>
+          <div class="cart__text-div p-6">
+            <h2>Men Premium Jacket</h2>
+            <p class="l-h-3">
+              <span class="price f-7">Rs. 2000</span>
+              <span class="line-through p-h-2 f-6">Rs. 7095</span>
+              <span class="t-c-3 f-bold">(30% OFF)</span>
+            </p>
+            <label class="heading-4">Quantity :</label>
+            <input
+              type="number"
+              id="points"
+              name="points"
+              step="1"
+              class="quantity"
+            />
+            <div class="call-to-action cart__buttons-div">
+              <button class="btn btn-danger t-c-1">Buy Now</button>
+              <button class="btn outline-danger t-c-2">Move to wishlist</button>
+            </div>
+          </div>
+        </section>
+
+        <section class="cart__card-container box-shadow-right m-v-8">
+          <div class="cart__img-div">
+            <img src="./assets/image-1.png" alt="jacket-img" class="cart-img" />
+          </div>
+          <div class="cart__text-div p-6">
+            <h2>Men Premium Jacket</h2>
+            <p class="l-h-3">
+              <span class="price f-7">Rs. 2000</span>
+              <span class="line-through p-h-2 f-6">Rs. 7095</span>
+              <span class="t-c-3 f-bold">(30% OFF)</span>
+            </p>
+            <label class="heading-4">Quantity :</label>
+            <input
+              type="number"
+              id="points"
+              name="points"
+              step="1"
+              class="quantity"
+            />
+            <div class="call-to-action cart__buttons-div">
+              <button class="btn btn-danger t-c-1">Buy Now</button>
+              <button class="btn outline-danger t-c-2">Move to wishlist</button>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!-- item-summart -->
+      <section class="cart__order-summary m-v-8">
+        <main class="cart__sumary-content p-8">
+          <header class="heading-4">Price Details</header>
+          <hr />
+          <div class="order-data">
+            <p class="f-6">Price(2 items)</p>
+            <p class="f-6">Rs 4999</p>
+          </div>
+          <div class="order-data">
+            <p class="f-6">Discount</p>
+            <p class="f-6">- Rs 1999</p>
+          </div>
+          <div class="order-data">
+            <p class="f-6">Delivery Charges</p>
+            <p class="f-6">Rs 499</p>
+          </div>
+          <hr />
+          <div class="order-data">
+            <p class="heading-3">Total Amount</p>
+            <p class="heading-3">Rs 3499</p>
+          </div>
+          <hr />
+          <p class="f-6">You Will Say Rs 1999 on this Order</p>
+          <button class="btn btn-danger t-c-1 final-cta w-100">Buy Now</button>
+        </main>
+      </section>
+    </div>
+  </body>
+</html>
