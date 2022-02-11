@@ -5,11 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
-    <link rel="stylesheet" href="https://cerebrumui.netlify.app/style.css" />
     <title>HomePage</title>
   </head>
   <body>
-    <header class="main-head ecom-navbar">
+    <header class="main-head ecom-navbar z-index-lg">
       <nav class="nav-component">
         <div class="logo-wrapper">
           <span class="hamburger-icon"
@@ -17,7 +16,7 @@
           ></span>
           <h1 class="nav-logo heading-4 p-h-2">Brain Store</h1>
         </div>
-        <div class="nav-searchBar-container">
+        <div class="nav-searchBar-container ecom-searchbar">
           <span class="nav-searchIcon"
             ><i class="fa fa-search f-5 t-c-3"></i
           ></span>
@@ -33,16 +32,16 @@
             <span class="badge-icon f-8 m-2">
               <i class="fa fa-heart"></i>
             </span>
-            <div class="badge centered-row">3</div>
+            <div class="badge centered-row ecom-badge">3</div>
           </div>
-          <span class="f-7 p-h-1 pointer">Wishlist</span>
+          <span class="f-7 p-h-1 pointer badge-caption">Wishlist</span>
           <div class="badge-wrapper p-h-4 m-h-3">
             <span class="badge-icon f-8 m-2">
               <i class="fa fa-shopping-cart"></i>
             </span>
-            <div class="badge centered-row">3</div>
+            <div class="badge centered-row ecom-badge">3</div>
           </div>
-          <span class="f-7 p-h-1 pointer">Cart</span>
+          <span class="f-7 p-h-1 pointer badge-caption">Cart</span>
         </div>
       </nav>
     </header>
@@ -58,7 +57,7 @@
     <section class="categories">
       <header class="categories-head z-index-lg">
         <h3 class="heading-2 t-c-3 f-bold p-h-4">Categories</h3>
-        <a href="#" class="heading-3 t-c-2 f-bold p-h-4 see-all"
+        <a href="cart.html" class="heading-3 t-c-2 f-bold p-h-4 see-all"
           >See All <span><i class="fa fa-arrow-right p-h-3"></i></span
         ></a>
       </header>
