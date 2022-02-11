@@ -8,6 +8,10 @@
   background: var(--secondary-color);
 }
 
+.badge.ecom-badge {
+  background: var(--grey-color);
+}
+
 /* hero image */
 .hero {
   padding: 2rem;
@@ -70,4 +74,14 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+@media screen and (max-width: 600px) {
+  .badge-caption {
+    display: none;
+  }
+
+  .nav-searchBar-container.ecom-searchbar {
+    display: none;
+  }
 }

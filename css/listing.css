@@ -65,3 +65,19 @@
   width: 25rem;
   height: 25rem;
 }
+
+/* media */
+
+@media screen and (max-width: 600px) {
+  .list__grid-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 10vh auto;
+    grid-template-areas:
+      'header'
+      'content';
+  }
+
+  .list__aside {
+    display: none;
+  }
+}
