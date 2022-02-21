@@ -62,8 +62,8 @@
 }
 
 .card-image.list__card-image {
-  width: 25rem;
-  height: 25rem;
+  max-width: 100%;
+  height: auto;
 }
 
 /* media */
@@ -81,4 +81,3 @@
     display: none;
   }
 }
-
